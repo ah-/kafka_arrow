@@ -1,4 +1,5 @@
 # distutils: language = c++
+# distutils: sources = avro_arrow_adapter.cc
 
 import ctypes
 from libcpp.memory cimport shared_ptr
