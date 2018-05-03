@@ -1,0 +1,7 @@
+include setup.py
+include kafka_arrow.pyx
+include kafka_arrow.h avro_arrow_adapter.h avro_arrow_adapter.cc
+include setup.py example.py
+include LICENSE
+exclude kafka_arrow.cpp
+exclude MANIFEST*
