@@ -1,13 +1,22 @@
 Bulk consume kafka topic in Python via Apache Arrow
 
+### installation
+Using PIP
+
+pip install kafka_arrow_py
+
+from source:
+
 ```
 python setup.py build_ext --inplace
 python example.py
 ```
 
 ### dependencies
+
 You will need to make sure the following Operating System and Python tools and libraries are available. 
-#### OS
+
+#### OS tools and libs
 1. g++ (c++ compiler, _g++_ on linux, _clang_ on Mac)
 
 ```
