@@ -3,7 +3,7 @@ Bulk consume kafka topic in Python via Apache Arrow
 ### installation
 Using PIP
 
-pip install kafka_arrow_py
+```pip install kafka_arrow_py```
 
 from source:
 
