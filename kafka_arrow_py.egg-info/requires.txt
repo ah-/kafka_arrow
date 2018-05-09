@@ -1,4 +1,0 @@
-setuptools
-cython
-numpy
-pyarrow
